@@ -1,8 +1,8 @@
 <template>
   <section id="testimonial" class="mt-10">
     <div class="container">
-      <h2 class="text-3xl font-bold text-black-soft text-center">
-        Customers <span class="text-primary">Expericen</span>
+      <h2 class="text-3xl font-bold text-white-soft text-center">
+        Customers <span class="text-primary">Experience</span>
       </h2>
       <div class="mt-20 relative">
         <div
@@ -27,11 +27,11 @@
           class="pt-16 laptop:pt-20 pb-10 px-10 border border-gray-200 rounded-xl flex flex-col laptop:flex-row gap-6"
         >
           <div class="w-full laptop:w-5/12 shrink-0 space-y-2">
-            <h4 class="text-xl font-semibold text-gray-800">
-              We care about
+            <h4 class="text-xl font-semibold text-white-soft">
+              I care about
               <br /><span class="text-primary">Customers experience too</span>
             </h4>
-            <p class="text-sm font-normal text-gray-500">
+            <p class="text-sm font-normal text-white-soft">
               Clients are invaluable to businesses, providing financial support, collaboration
               opportunities, and feedback. Cultivating loyal relationships leads to long-term
               success and mutual prosperity.
@@ -75,7 +75,7 @@
                     </svg>
                   </div>
                   <blockquote
-                    className="first-letter:text-2xl first-letter:font-bold indent-8 relative z-10 text-sm lg:text-base font-normal text-gray-700"
+                    className="first-letter:text-2xl first-letter:font-bold indent-8 relative z-10 text-sm lg:text-base font-normal text-white-soft"
                   >
                     {{ testimonial.message }}
                   </blockquote>
@@ -89,10 +89,10 @@
                       alt="Profile Picture"
                     />
                     <div className="space-y-0.5">
-                      <h6 className="text-sm font-semibold text-gray-900">
+                      <h6 className="text-sm font-semibold text-white">
                         {{ testimonial.name }}
                       </h6>
-                      <p className="text-xs font-normal text-gray-500">
+                      <p className="text-xs font-normal text-white">
                         {{ testimonial.designation }} of
                         <span className="text-primary">{{ testimonial.company }}</span>
                       </p>
@@ -103,7 +103,7 @@
 
               <div class="relative bottom-3 mt-10 z-10 flex items-center justify-center gap-3">
                 <button
-                  class="swiper-button-prev h-5 w-5 !text-gray-400 shrink-0 hover:!text-primary hover:-translate-x-1 transition-all duration-300 swiper-button-disabled"
+                  class="swiper-button-prev h-5 w-5 !text-white-400 shrink-0 hover:!text-primary hover:-translate-x-1 transition-all duration-300 swiper-button-disabled"
                   name="arrow-back-outline"
                   disabled=""
                 >

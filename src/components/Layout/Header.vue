@@ -1,15 +1,15 @@
 <template>
   <header
     class="top-0 inset-x-0 z-40 transition-all duration-300"
-    :class="[isSticky ? 'sticky bg-white shadow-md' : 'fixed bg-transparent']"
-  >
-    <div class="container">
+    :class="[isSticky ? 'sticky bg-black shadow-md': 'fixed bg-transparent']"
+  > 
+    <div class="container bg-black shadow-md">
       <nav>
         <ul class="flex items-center justify-center gap-4 laptop:gap-8 py-6">
           <li v-for="menu in menus" :key="menu.id">
             <a
               :href="menu.link"
-              class="hover:text-light-1 text-black-soft transition-colors duration-300"
+              class="hover:text-light-1 text-white-soft transition-colors duration-300"
               >{{ menu.name }}</a
             >
           </li>
@@ -71,13 +71,13 @@ const menus = [
     name: 'About',
     link: '#about'
   },
+  // {
+  //   id: 4,
+  //   name: 'Projects',
+  //   link: '#projects'
+  // },
   {
     id: 4,
-    name: 'Projects',
-    link: '#projects'
-  },
-  {
-    id: 5,
     name: 'Contact',
     link: '#contact'
   }

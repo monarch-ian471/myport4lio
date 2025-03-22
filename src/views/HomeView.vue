@@ -1,10 +1,10 @@
 <script setup>
 import HeroSection from '@/components/home/HeroSection.vue'
 import Services from '@/components/home/Services.vue'
-import FeaturedProjects from '@/components/home/FeaturedProjects.vue'
+// import FeaturedProjects from '@/components/home/FeaturedProjects.vue'
 import Contact from '@/components/home/Contact.vue'
 import About from '@/components/home/About.vue'
-import Project from '@/components/home/Project.vue'
+// import Project from '@/components/home/Project.vue'
 import Testimonial from '../components/home/Testimonial.vue'
 </script>
 
@@ -13,7 +13,7 @@ import Testimonial from '../components/home/Testimonial.vue'
   <HeroSection />
 
   <!-- featured projects -->
-  <FeaturedProjects />
+  <!-- <FeaturedProjects /> -->
 
   <!-- services -->
   <Services />
@@ -22,7 +22,7 @@ import Testimonial from '../components/home/Testimonial.vue'
   <About />
 
   <!-- projects -->
-  <Project />
+  <!-- <Project /> -->
 
   <!-- testimonial -->
   <Testimonial />

@@ -1,30 +1,30 @@
 <template>
   <section id="contact" class="mt-20">
     <div class="container pb-10">
-      <h2 class="text-3xl font-bold text-black-soft text-center laptop:text-left">
+      <h2 class="text-3xl font-bold text-white-soft text-center laptop:text-left">
         Let's Work <span class="text-primary">Together</span>
       </h2>
       <div
         class="grid grid-cols-1 desktop:grid-cols-3 gap-y-10 laptop:pag-y-0 laptop:gap-16 mt-8 relative"
       >
         <div class="w-full bg-gray-50 rounded-lg px-5 py-6 space-y-4">
-          <p class="text-base font-normal text-gray-500">
+          <p class="text-base font-normal text-black-soft">
             We value your feedback and are here to assist you. Feel free to reach out to us with any
             questions, inquiries, or requests. We look forward to hearing from you!
           </p>
           <div class="flex gap-4 text-sm laptop:text-base text-gray-700">
             <MapPinIcon class="h-5 w-5 shrink-0 mt-1" />
-            <p>Rayerbag, Dhaka, Bangladesh -1362</p>
+            <p>New Area 12,  Plot 526, Lilongwe, Malawi</p>
           </div>
           <div class="flex gap-4 text-sm laptop:text-base text-gray-700 hover:text-primary">
             <EnvelopeIcon class="h-5 w-5 shrink-0 mt-1" />
-            <a href="mailto: alamindev.io@gmail.com" class="break-all block flex-1"
-              >alamindev.io@gmail.com</a
+            <a href="mailto: iankatengeza@gmail.com" class="break-all block flex-1"
+              >iankatengeza@gmail.com</a
             >
           </div>
           <div class="flex gap-4 text-sm laptop:text-base text-gray-700 hover:text-primary">
             <PhoneIcon class="h-5 w-5 shrink-0 mt-1" />
-            <a href="tel: +8801922866947">+8801922866947</a>
+            <a href="tel: +265986101535">+265986101535</a>
           </div>
         </div>
         <form

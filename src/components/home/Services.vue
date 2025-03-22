@@ -3,7 +3,7 @@
     <div class="container">
       <div class="space-y-2 text-center">
         <p class="text-base font-semibold text-primary">Services</p>
-        <h2 class="text-3xl font-bold text-black-soft">Service Provide For My Clients</h2>
+        <h2 class="text-3xl font-bold text-white-soft">Services Provide For My Clients</h2>
       </div>
 
       <div class="grid grid-cols-1 laptop:grid-cols-4 gap-x-6 gap-y-16 laptop:gap-y-20 mt-20">
@@ -13,17 +13,17 @@
           :key="service.id"
         >
           <div
-            class="h-20 laptop:h-28 w-20 laptop:w-28 rounded-full group-hover:bg-primary group-hover:text-white bg-gray-100 border-4 border-white absolute -top-10 laptop:-top-14 left-1/2 -translate-x-1/2 flex items-center justify-center transition-all duration-300"
+            class="h-20 laptop:h-28 w-20 laptop:w-28 rounded-full group-hover:bg-primary group-hover:text-black bg-gray-100 border-4 border-white absolute -top-10 laptop:-top-14 left-1/2 -translate-x-1/2 flex items-center justify-center transition-all duration-300"
           >
             <component :is="service.icon" class="h-8 w-8" />
           </div>
           <h4
-            class="text-lg laptop:text-xl font-medium text-gray-800 group-hover:text-white transition-all duration-300"
+            class="text-lg laptop:text-xl font-medium text-black group-hover:text-white transition-all duration-300"
           >
             {{ service?.title }}
           </h4>
           <p
-            class="text-sm leading-relaxed font-normal text-gray-600 group-hover:text-white transition-all duration-300 line-clamp-6"
+            class="text-sm leading-relaxed font-normal text-black group-hover:text-white transition-all duration-300 line-clamp-6"
           >
             {{ service?.description }}
           </p>

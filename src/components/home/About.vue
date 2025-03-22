@@ -2,7 +2,7 @@
   <section class="mt-20" id="about">
     <div class="container space-y-20">
       <div class="flex flex-col gap-16">
-        <h2 class="text-3xl font-bold text-black-soft text-center">
+        <h2 class="text-3xl font-bold text-white-soft text-center">
           Education &amp; <span class="text-primary">Experience</span>
         </h2>
         <div class="relative flex flex-col justify-center items-center gap-20">
@@ -22,23 +22,23 @@
             ></span>
             <p
               class="text-base laptop:text-lg font-medium mb-3 laptop:mb-6 leading-0 -mt-1.5"
-              :class="[item?.active ? 'text-primary' : 'text-gray-500']"
+              :class="[item?.active ? 'text-primary' : 'text-white']"
             >
               {{ item?.duration }}
             </p>
             <p
-              class="text-sm font-bold laptop:text-3xl laptop:font-medium text-gray-800 leading-relaxed mb-2"
+              class="text-sm font-bold laptop:text-3xl laptop:font-medium text-white leading-relaxed mb-2"
             >
               {{ item?.designation }}
             </p>
-            <p class="text-sm laptop:text-base font-normal text-gray-500">{{ item?.company }}</p>
+            <p class="text-sm laptop:text-base font-normal text-white">{{ item?.company }}</p>
           </div>
         </div>
       </div>
 
       <div class="space-y-10">
-        <h2 class="text-3xl font-bold text-black-soft text-center">
-          <span class="text-primary">Technologies</span> We Use
+        <h2 class="text-3xl font-bold text-white-soft text-center">
+          <span class="text-primary">Technologies</span> I Use
         </h2>
         <div
           class="flex flex-col desktop:flex-row justify-center items-center -space-y-4 desktop:-space-y-0 desktop:-space-x-4 mt-10"
@@ -71,46 +71,54 @@
 import { reactive } from 'vue'
 
 const education_experiences = reactive([
-  {
+{
     id: 1,
-    designation: 'Front-End Developer',
-    duration: '2022 - Present',
-    company: 'Sysable Technology',
+    designation: 'Jr Software Developer',
+    duration: '2024 - 2024',
+    company: 'SYNERGY',
     active: true,
     align: true
   },
   {
     id: 2,
-    designation: 'Front-End Developer',
-    duration: '2021 - 2022',
-    company: 'Mistri Solutions',
+    designation: 'IT Assistant Intern',
+    duration: '2024 - 2024',
+    company: 'SYNERGY',
     active: false,
     align: false
   },
   {
     id: 3,
-    designation: 'Executive Support Eng.',
-    duration: '2016 - 2021',
-    company: 'Stargate Communications',
-    active: false,
+    designation: 'Operations Associate',
+    duration: '2024 - Running',
+    company: 'SYNERGY',
+    active: true,
     align: true
   },
   {
     id: 4,
-    designation: 'Bachelor Of Business Studies (BBA)',
-    duration: '2016 - Running',
-    company: 'Kabi Nazrul Govt. College',
+    designation: 'Administrative Associate.',
+    duration: '2019 - 2023',
+    company: 'SYNERGY',
     active: false,
     align: false
   },
   {
     id: 5,
-    designation: 'Higher Secondary Certificate (HSC)',
-    duration: '2014 - 2016',
-    company: 'Dania University College',
-    active: false,
+    designation: 'Bachelor Of Scince in Computer Science (BSC)',
+    duration: '2022 - Running',
+    company: 'DMI.ST John The Baptist University',
+    active: true,
     align: true
-  }
+  },
+  // {
+  //   id: 6,
+  //   designation: '',
+  //   duration: '2000 - 2000',
+  //   company: '',
+  //   active: false,
+  //   align: true
+  // }
 ])
 
 const stacks = reactive([
