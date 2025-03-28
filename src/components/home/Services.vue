@@ -3,7 +3,7 @@
     <div class="container">
       <div class="space-y-2 text-center">
         <p class="text-base font-semibold text-primary">Services</p>
-        <h2 class="text-3xl font-bold text-white-soft">Services Provide For My Clients</h2>
+        <h2 class="text-3xl font-bold text-white-soft">Areas of Expertise</h2>
       </div>
 
       <div class="grid grid-cols-1 laptop:grid-cols-4 gap-x-6 gap-y-16 laptop:gap-y-20 mt-20">

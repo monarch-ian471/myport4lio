@@ -18,7 +18,7 @@
             <div class="space-y-3">
               <p class="text-xl font-normal text-primary">Developer</p>
               <p class="text-base font-normal text-dark-1">
-                I am a programmer, tech enthusiast, and passionate learner. My passion for Computer Science is driven by technology's seamless integration into everyday life, and its ability to make people's lives easier, it's not just ones and zeros, but a sense of purpose. I have gained experience through IT internships, progressing from IT Assistant to Junior Software Developer. Additionally, I have worked in administration and operations roles to develop strong interpersonal skills and enhance my career growth.
+                I am a programmer, tech enthusiast, and passionate learner. My passion for Computer Science is driven by technology's seamless integration into everyday life, and its ability to make people's lives easier, it's not just ones and zeros, but a sense of purpose.
               </p>
             </div>
             <div class="flex gap-2">
@@ -87,7 +87,6 @@ const socials = [
     id: 2,
     name: 'Facebook',
     icon: FacebookIcon,
-    link: 'https://www.facebook.com/Iang0407/'
-  }
+    link: 'https://www.facebook.com/Iang0407/'}
 ]
 </script>

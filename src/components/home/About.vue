@@ -144,10 +144,10 @@ const stacks = reactive([
     scale: 1.2
   },
   {
-    id: 4,
-    name: 'Vue JS',
-    img: 'vue.png',
-    bg_color: 'bg-[#41b883]',
+    id: 7,
+    name: 'Python',
+    img: 'py4.png',
+    bg_color: 'bg-[#ffffff]',
     scale: 1.5
   },
   {
@@ -165,11 +165,11 @@ const stacks = reactive([
     scale: 1.1
   },
   {
-    id: 7,
-    name: 'Bootstrap',
-    img: 'bootstrap.png',
-    bg_color: 'bg-[#8112fa]',
-    scale: 1
+    id: 4,
+    name: 'Vue JS',
+    img: 'vue.png',
+    bg_color: 'bg-[#41b883]',
+    scale: 1.1
   }
 ])
 </script>
